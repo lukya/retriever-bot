@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DataBasics" representedClassName="DataBasics" syncable="YES" codeGenerationType="class">
+        <attribute name="dataType" optional="YES" syncable="YES"/>
+        <attribute name="designatedIdentifier" transient="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" syncable="YES"/>
+    </entity>
+    <entity name="DataDetails" representedClassName="DataDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="dataType" optional="YES" syncable="YES"/>
+        <attribute name="designatedIdentifier" optional="YES" syncable="YES"/>
+        <attribute name="fileURL" optional="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" syncable="YES"/>
+        <attribute name="otherParametersJSON" optional="YES" syncable="YES"/>
+        <attribute name="validityEndDate" optional="YES" syncable="YES"/>
+        <attribute name="validityStartDate" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="DataTypes" representedClassName="DataTypes" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" syncable="YES"/>
+        <attribute name="nickName" optional="YES" syncable="YES"/>
+        <attribute name="userName" optional="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-2457" positionY="-1476" width="128" height="88"/>
+        <element name="DataTypes" positionX="-2295" positionY="-1746" width="128" height="88"/>
+        <element name="DataDetails" positionX="-1854" positionY="-1558" width="128" height="148"/>
+        <element name="DataBasics" positionX="-2108" positionY="-1549" width="128" height="88"/>
+    </elements>
+</model>
